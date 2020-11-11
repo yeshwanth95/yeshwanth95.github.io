@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yeshwanth Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+       
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html#home">
+                    <img src="img/yk_logo_new.png" alt="logo">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Estimation of <strong>Tree Volumes</strong> from <strong>TLS Point Clouds</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">using machine learning algorithms</p>
+            <img src="img/portfolio_1/before_ground_segmentation_tree_squared.png" alt="portfolio item image" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+                This study was carried out as part of my master's thesis research. The primary objective of this project was to make accurate estimates of above-ground tree volumes both at individual tree and plot levels. The area of study for this project was the mangrove forests in Thane, Maharashtra. The primary mode of data acquisition was in situ surveys of individual trees and 32m x 32m forest plots using the FARO Focus S350 terrestrial laser scanner.
+            </p>
+
+            <!-- Slideshow Container -->
+            <div class="portfolio-item-individual__slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="portfolio-item-individual__slides fade">
+                    <div class="portfolio-slides__number-text">1 / 5</div>
+                    <img src="img/portfolio_1/before_ground_segmentation_tree.png" alt="">
+                    <div class="portfolio__slide-text">Point Cloud of individual Tree</div>
+                </div>
+
+                <div class="portfolio-item-individual__slides fade">
+                    <div class="portfolio-slides__number-text">2 / 5</div>
+                    <img src="img/portfolio_1/forest_plot_vikhroli_1.png" alt="">
+                    <div class="portfolio__slide-text">Point Cloud of Forest Plot</div>
+                </div>
+
+                <div class="portfolio-item-individual__slides fade">
+                    <div class="portfolio-slides__number-text">3 / 5</div>
+                    <img src="img/portfolio_1/forest_plot_vikhroli_1_foliage_removed_2.png" alt="">
+                    <div class="portfolio__slide-text">After Foliage Filtration</div>
+                </div>
+
+                <div class="portfolio-item-individual__slides fade">
+                    <div class="portfolio-slides__number-text">4 / 5</div>
+                    <img src="img/portfolio_1/orignal_preprocessed_plot_ground_removed_foliage_removed_trees_segmented.png" alt="">
+                    <div class="portfolio__slide-text">Segmentation of Individual Trees</div>
+                </div>
+
+                <div class="portfolio-item-individual__slides fade">
+                    <div class="portfolio-slides__number-text">5 / 5</div>
+                    <img src="img/portfolio_1/forest_plot_vikhroli_1_foliage_removed_QSM.png" alt="">
+                    <div class="portfolio__slide-text">QSM Reconstruction</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="slideshow__prev-button" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="slideshow__next-button" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <!-- <img src="img/usgs-2BNtmMnxLlA-unsplash.jpg" alt="portfolio item image"> -->
+            <p>
+                In this project, a weighted random forest classifier was used to perform foliage filtration. Geometric features were calculated at different scales for each point and passed as inputs for the classifier. After foliage filtration, existing state-of-the-art methods were implemented to construct quantitative structure models (QSMs) from the foliage filtered point clouds, from which the above-ground volume of trees was accurately estimated.
+            </p>
+            <p>
+                At the end of this study, in addition to meeting the objectives of the research, I had gained substantial proficiency in planning and conducting TLS surveys of forests, registration & preprocessing of LiDAR data, computing normals & geometric features of point clouds, point-wise classification of point clouds, etc.
+            </p>
+        </div>
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <a href="mailto:staryesh@gmail.com" class="footer__link">staryesh@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/yeshwanth-kumar-a-52b105129">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/yeshwanth95">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/yeshwanth.kumar.75">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/yeshwanth_wo_kochira/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+        <script src="js/portfolio_slideshow.js"></script>
+
+    </body>
+</html>

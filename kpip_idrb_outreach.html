@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yeshwanth Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+       
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html#home">
+                    <img src="img/yk_logo_new.png" alt="logo">
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Estimation of <strong>Cultivated/Cultivable (Ayacut) Area</strong> for the <strong>Kanjirappuzha Irrigation Project</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">from Sentinel-2 imagery using the Multi Layer Perceptron Algorithm</p>
+            <img src="img/portfolio_3/kpip_lulc_cropped.png" alt="portfolio item image" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+                This project was carried out & submitted as part of an outreach programme to the Irrigation Design and Research Board (IDRB) of the Government of Kerala. In this project, the primary objective was to calculate the ayacut area (cultivated & cultivable area) in the command region of the Kanjirappuzha Irrigation Project.
+            </p>
+
+            <!-- Slideshow Container -->
+            <div class="portfolio-item-individual__slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="portfolio-item-individual__slides fade">
+                    <div class="portfolio-slides__number-text">1 / 2</div>
+                    <img src="img/portfolio_3/kpip_study_area.png" alt="">
+                    <div class="portfolio__slide-text">The gross command area of the Kanjirappuzha Irrigation Project</div>
+                </div>
+
+                <div class="portfolio-item-individual__slides fade">
+                    <div class="portfolio-slides__number-text">2 / 2</div>
+                    <img src="img/portfolio_3/kpip_lulc_censored.png" alt="">
+                    <div class="portfolio__slide-text">Classified LU/LC map of the command area showing the Ayacut area</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="slideshow__prev-button" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="slideshow__next-button" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+
+            <p>
+                Upon completion of this project, I had gained valuable experience & insights in coordinating with government engineers and ensuring that the data products met the high standards of the decision-makers. Furthermore, I was also able to acquaint myself with the standard workflow followed by governmental GIS technicians in solving their various problems. This outreach programme also allowed me to relay & instruct the IDRB GIS technicians regarding the various sources of open remote sensing data and state-of-the-art processing techniques.
+            </p>
+            <p>
+                Consequently, the project was completed as per the requirements and the results were submitted to the IDRB.
+            </p>
+        </div>
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <a href="mailto:staryesh@gmail.com" class="footer__link">staryesh@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/yeshwanth-kumar-a-52b105129">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/yeshwanth95">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/yeshwanth.kumar.75">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/yeshwanth_wo_kochira/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+        <script src="js/portfolio_slideshow.js"></script>
+
+    </body>
+</html>
