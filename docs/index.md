@@ -26,7 +26,7 @@ I'm Yeshwanth. I'm an AI/ML Researcher from Chennai, India. I'm presently based 
 My research primarily focuses on developing deep neural network architectures for 3D urban scene understanding, which involves solving several challenging tasks such as 3D/2D segmentation, object detection, building footprint extraction, indoor reconstruction, etc.
 
 Stuff I know:<br>
-[![My Skills](https://skillicons.dev/icons?i=python,pytorch,linux,tensorflow,opencv,sklearn,neovim,vim,git,aws,docker,c,cpp,cmake,bash,latex,nginx&perline=8)]()
+[![My Skills](https://skillicons.dev/icons?i=python,pytorch,linux,tensorflow,opencv,sklearn,neovim,vim,git,aws,docker,c,cpp,cmake,bash,latex,nginx,githubactions&perline=8)]()
 <br>
 
 <!--[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yeshwanth95&count_private=true&hide_rank=true&show_icons=true&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)-->
