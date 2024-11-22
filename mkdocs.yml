@@ -1,0 +1,106 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Yeshwanth Kumar Adimoolam
+site_url: https://yeshwanth95.github.io
+nav:
+  - Home: index.md
+  - Publications: publications.md
+  - Projects: projects/index.md
+  - About: about.md
+theme:
+  name: material
+  logo: assets/yka_logo.svg
+  # favicon: material/alpha-y-box-outline
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: custom
+      accent: custom
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: custom
+      accent: custom
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - content.code.copy
+  icon:
+    # logo: material/tilde
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+plugins:
+  - search
+  # - glightbox
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+copyright: Copyright &copy; 2020 - 2024 Yeshwanth Kumar Adimoolam
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yeshwanth95
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ykadimoolam95
+
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=x5EryE8AAAAJ
+
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0003-0016-7671
+
+    - icon: simple/researchgate
+      link: https://www.researchgate.net/profile/Yeshwanth-Adimoolam
+
+    - icon: simple/dblp
+      link: https://dblp.org/pid/344/3662
+
+    - icon: simple/semanticscholar
+      link: https://www.semanticscholar.org/author/Yeshwanth-Kumar-Adimoolam/2213561684
+
+    - icon: fontawesome/regular/envelope
+      link: mailto:staryesh@gmail.com
+
