@@ -12,3 +12,28 @@ This study was carried out as part of my master's thesis research. The primary o
 In this project, a weighted random forest classifier was used to perform foliage filtration. Geometric features were calculated at different scales for each point and passed as inputs for the classifier. After foliage filtration, existing state-of-the-art methods were implemented to construct quantitative structure models (QSMs) from the foliage filtered point clouds, from which the above-ground volume of trees was accurately estimated.
 
 At the end of this study, in addition to meeting the objectives of the research, I had gained substantial proficiency in planning and conducting TLS surveys of forests, registration & preprocessing of LiDAR data, computing normals & geometric features of point clouds, point-wise classification of point clouds, etc.
+
+<figure markdown="span">
+  ![Image title](../assets/projects/tree_biomass/before_ground_segmentation_tree.png)
+  <!--<figcaption>Image caption</figcaption>-->
+</figure>
+
+<figure markdown="span">
+  ![Image title](../assets/projects/tree_biomass/forest_plot_vikhroli_1.png)
+  <!--<figcaption>Image caption</figcaption>-->
+</figure>
+
+<figure markdown="span">
+  ![Image title](../assets/projects/tree_biomass/forest_plot_vikhroli_1_foliage_removed_2.png)
+  <!--<figcaption>Image caption</figcaption>-->
+</figure>
+
+<figure markdown="span">
+  ![Image title](../assets/projects/tree_biomass/orignal_preprocessed_plot_ground_removed_foliage_removed_trees_segmented.png)
+  <!--<figcaption>Image caption</figcaption>-->
+</figure>
+
+<figure markdown="span">
+  ![Image title](../assets/projects/tree_biomass/forest_plot_vikhroli_1_foliage_removed_QSM.png)
+  <!--<figcaption>Image caption</figcaption>-->
+</figure>
