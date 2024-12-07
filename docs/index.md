@@ -25,9 +25,32 @@ I'm Yeshwanth. I'm an AI/ML Researcher from Chennai, India. I'm presently based 
 
 My research primarily focuses on developing deep neural network architectures for 3D urban scene understanding, which involves solving several challenging tasks such as 3D/2D segmentation, object detection, building footprint extraction, indoor reconstruction, etc.
 
+<div class="grid cards" markdown>
+
 Stuff I know:<br>
-[![My Skills](https://skillicons.dev/icons?i=python,pytorch,linux,tensorflow,opencv,sklearn,neovim,vim,git,aws,docker,c,cpp,cmake,bash,latex,nginx,githubactions&perline=8)]()
-<br>
+[![Python](https://skillicons.dev/icons?i=python "Python")]()
+[![PyTorch](https://skillicons.dev/icons?i=pytorch "PyTorch")]()
+[![Tensorflow](https://skillicons.dev/icons?i=tensorflow "Tensorflow")]()
+[![Scikit-Learn](https://skillicons.dev/icons?i=sklearn "Scikit-Learn")]()
+[![Linux](https://skillicons.dev/icons?i=linux "Linux")]()
+[![Git](https://skillicons.dev/icons?i=git "Git")]()
+[![Github Action](https://skillicons.dev/icons?i=githubactions "Github Actions")]()
+[![docker](https://skillicons.dev/icons?i=docker "docker")]()<br>
+[![C](https://skillicons.dev/icons?i=c "c")]()
+[![CPP](https://skillicons.dev/icons?i=cpp "cpp")]()
+[![CMake](https://skillicons.dev/icons?i=cmake "cmake")]()
+[![OpenCV](https://skillicons.dev/icons?i=opencv "opencv")]()
+[![Neovim](https://skillicons.dev/icons?i=neovim "Neovim")]()
+[![Vim](https://skillicons.dev/icons?i=vim "Vim")]()
+[![LaTex](https://skillicons.dev/icons?i=latex "LaTeX")]()
+[![AWS](https://skillicons.dev/icons?i=aws "AWS")]()<br>
+[![Nginx](https://skillicons.dev/icons?i=nginx "Nginx")]()
+[![Bash](https://skillicons.dev/icons?i=bash "bash")]()
+</div>
+
+<!--Stuff I know:<br>-->
+<!--[![My Skills](https://skillicons.dev/icons?i=python,pytorch,linux,tensorflow,opencv,sklearn,neovim,vim,git,aws,docker,c,cpp,cmake,bash,latex,nginx,githubactions&perline=8)]()-->
+<!--<br>-->
 
 <!--[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yeshwanth95&count_private=true&hide_rank=true&show_icons=true&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)-->
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yeshwanth95&count_private=true&exclude_repo=yeshwanth95.github.io&langs_count=10&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)-->
