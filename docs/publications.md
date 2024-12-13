@@ -63,8 +63,8 @@
     <strong>Pix2Poly: A Sequence Prediction Method for End-to-end Polygonal Building Footprint Extraction</strong><br>
     Adimoolam, Y. K., Poullis, C., Averkiou, M.<br>
     <em>In Proc. WACV, 2025 (Accepted for publication)</em><br>
-    <button class="md-button" onclick="window.open('','_blank')">ABS</button>
-    <button class="md-button" onclick="window.open('','_blank')">PDF</button>
+    <button class="md-button" onclick="window.open('https://arxiv.org/abs/2412.07899','_blank')">ABS</button>
+    <button class="md-button" onclick="window.open('https://arxiv.org/pdf/2412.07899','_blank')">PDF</button>
     <button class="md-button" onclick="window.open('https://github.com/yeshwanth95/Pix2Poly','_blank')">CODE</button>
     <button class="md-button" onclick="window.open('','_blank')">PROJECT PAGE</button>
   </div>
