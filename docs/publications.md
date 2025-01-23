@@ -66,7 +66,7 @@
     <button class="md-button" onclick="window.open('https://arxiv.org/abs/2412.07899','_blank')">ABS</button>
     <button class="md-button" onclick="window.open('https://arxiv.org/pdf/2412.07899','_blank')">PDF</button>
     <button class="md-button" onclick="window.open('https://github.com/yeshwanth95/Pix2Poly','_blank')">CODE</button>
-    <button class="md-button" onclick="window.open('','_blank')">PROJECT PAGE</button>
+    <button class="md-button" onclick="window.open('https://yeshwanth95.github.io/Pix2Poly','_blank')">PROJECT PAGE</button>
   </div>
 </div>
 <br>
